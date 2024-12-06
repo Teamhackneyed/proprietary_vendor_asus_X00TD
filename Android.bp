@@ -15150,6 +15150,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/cdfinger.fingerprint.default.so",
             ],
             shared_libs: [
+                "liblog",
                 "libc",
                 "libcutils",
                 "libutils",
